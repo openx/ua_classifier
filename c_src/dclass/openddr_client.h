@@ -41,7 +41,10 @@
                                 "device_os",               \
                                 "ajax_support_javascript", \
                                 "is_tablet",               \
-                                "is_wireless_device"       \
+                                "is_wireless_device",      \
+                                "is_crawler",              \
+                                "is_desktop",              \
+                                "marketing_name"           \
                               }
 
 

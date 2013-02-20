@@ -18,7 +18,7 @@ test:
 	./rebar compile eunit
 
 update-dtree:
-	wget -O priv/openddr.dtree 'https://github.com/TheWeatherChannel/dClass/blob/master/dtrees/openddr.dtree?raw=true'
+	wget --no-check-certificate -O priv/openddr.dtree 'https://github.com/openx/dClass/blob/master/dtrees/openddr.dtree?raw=true'
 
 ##
 ## Doc targets
