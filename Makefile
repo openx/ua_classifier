@@ -18,7 +18,7 @@ test:
 	./rebar compile eunit
 
 update-dtree:
-	wget --no-check-certificate -O priv/openddr.dtree 'https://github.com/openx/dClass/blob/master/dtrees/openddr.dtree?raw=true'
+	wget --no-check-certificate -O priv/devicemap.dtree 'https://github.com/openx/dClass/blob/master/dtrees/devicemap.dtree?raw=true'
 
 ##
 ## Doc targets
